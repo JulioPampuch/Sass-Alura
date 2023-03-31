@@ -10,11 +10,35 @@ nav ul li {
   padding: 1rem;
 }
 nav ul li a {
-  color: #A2A7A5;
+  color: #656b69;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
 }
 nav ul li a:hover {
-  border-bottom: 2px solid #E2DADB;
+  border-bottom: 2px solid #09472f;
+}
+
+.banner {
+  background: url(../../imagens/banner.jpeg) 27% center no-repeat;
+  min-height: 350px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+}
+.banner .inner-banner {
+  padding: 3rem;
+  background-color: #DAE2DF;
+  opacity: 0.8;
+  border-radius: 15px;
+}
+.banner .inner-banner h1 {
+  font-size: 3rem;
+  color: #656b69;
+}
+.banner .inner-banner h2 {
+  font-size: 1.5rem;
+  color: #09472f;
 }/*# sourceMappingURL=style.css.map */

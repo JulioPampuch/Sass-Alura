@@ -37,6 +37,7 @@ nav ul li a:hover {
 .banner .inner-banner h1 {
   font-size: 3rem;
   color: #656b69;
+  font-weight: bold;
 }
 .banner .inner-banner h2 {
   font-size: 1.5rem;

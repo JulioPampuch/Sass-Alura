@@ -2,6 +2,28 @@ html, body {
   font-family: "Roboto", sans-serif;
 }
 
+html, body {
+  font-family: "Roboto", sans-serif;
+}
+
+#servicos {
+  margin: 80px;
+}
+#servicos h4 {
+  font-size: 1.2rem;
+  color: #09472f;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  margin: 1rem;
+}
+#servicos h3 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 80px;
+  font-weight: 300;
+}
+
 nav {
   text-align: center;
 }
@@ -31,8 +53,9 @@ nav ul li a:hover {
 .banner .inner-banner {
   padding: 3rem;
   background-color: #DAE2DF;
-  opacity: 0.8;
+  opacity: 0.7;
   border-radius: 15px;
+  text-align: center;
 }
 .banner .inner-banner h1 {
   font-size: 3rem;

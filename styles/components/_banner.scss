@@ -11,19 +11,21 @@
 
   .inner-banner {
     padding: 3rem;
-    background-color: $cor-terciaria;
+    background-color: $cor-primaria;
     opacity: 0.7;
     border-radius: 15px;
     text-align: center;
 
     h1 {
       font-size: $tamanho-do-texto;
-      color: $cor-primaria;
+      font-family: $fonte-titulo;
+      color: $cor-terciaria;
       font-weight: bold;
+      margin-bottom: 5px;
     }
 
     h2 {
-      font-size: $tamanho-do-texto / 2;
+      font-size: $tamanho-do-texto / 2.75;
       color: $cor-secundaria;
     }
   }

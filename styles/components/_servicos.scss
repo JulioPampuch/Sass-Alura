@@ -31,7 +31,6 @@
         font-size: $tamanho-do-texto / 1.5;
         font-weight: 300;
 
-        background-color: $cor-terciaria;
         color: $cor-secundaria;
 
         margin-top: 25px;
@@ -42,13 +41,12 @@
       p {
         font-size: $tamanho-do-texto / 3;
         font-weight: bold;
-        color: $cor-primaria;
+        color: $cor-terciaria;
         line-height: 1.25rem;
       }
 
       .img-container {
-        padding: 2.5px 0;
-        border-top: 6px solid $cor-primaria;
+        border-bottom: 6px solid $cor-primaria;
         img {
          max-width: 100%; 
         }

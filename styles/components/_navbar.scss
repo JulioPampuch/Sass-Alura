@@ -1,7 +1,7 @@
+@import '../abstract/variaveis';
+
 nav {
   text-align: center;
-
-@import '../abstract/variaveis';
 
   ul {
     li {
@@ -9,7 +9,7 @@ nav {
       padding: 1rem;
 
       a {
-        color: $cor-primaria;
+        color: $cor-terciaria;
         text-decoration: none;
         text-transform: uppercase;
         font-weight: bold;
